@@ -1,0 +1,22 @@
+{
+	"name": "oromedialab/php-utility",
+	"description": "PHP Utility Library With Common Functions and Classes",
+	"license": "MIT",
+	"keywords": ["php-utility"],
+	"authors": [
+        {
+            "name": "Ibrahim Azhar Armar",
+            "email": "azhar@iarmar.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oml\\PHPUtility\\": "src/PHPUtility/"
+        }
+    }
+}
