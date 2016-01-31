@@ -1,11 +1,11 @@
 PHP Utility Library
 =============
 
-All functions below are under following namespace `Oml\PHPUtility\Common`
-
 String
 ------
 ```php
+Oml\PHPUtility\Common
+
 // Add ordinal suffix to the number
 String::ordinalSuffix($number);
 
@@ -19,6 +19,8 @@ String::chunkedSerial($separator = '-', $charactersPerChunk = 8, $chunks = 5, $u
 DateTime
 --------
 ```php
+Oml\PHPUtility\Common
+
 // Verify date in given format, by default Y-m-d format is used
 DateTime::verify($date, $format = 'Y-m-d', $strict = true)
 ```
